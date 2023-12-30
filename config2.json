@@ -1,0 +1,144 @@
+{
+  "version": "1",
+  "name": "mode-domains",
+  "abis": {
+    "SidRegistry": {
+      "path": "./artifacts/contracts/registry/SidRegistry.sol/SidRegistry.json"
+    },
+    "SANN": {
+      "path": "./artifacts/contracts/admin/SANN.sol/SANN.json"
+    },
+    "RegistrarController": {
+      "path": "./artifacts/contracts/controller/RegistrarController.sol/RegistrarController.json"
+    },
+    "ReverseRegistrar": {
+      "path": "./artifacts/contracts/registrar/ReverseRegistrar.sol/ReverseRegistrar.json"
+    },
+    "PriceOracle": {
+      "path": "./artifacts/contracts/price-oracle/PriceOracle.sol/PriceOracle.json"
+    },
+    "Base": {
+      "path": "./artifacts/contracts/base/Base.sol/Base.json"
+    },
+    "TldFactory": {
+      "path": "./artifacts/contracts/admin/TldFactory.sol/TldFactory.json"
+    },
+    "PlatformConfig": {
+      "path": "./artifacts/contracts/admin/PlatformConfig.sol/PlatformConfig.json"
+    },
+    "PrepaidPlatformFee": {
+      "path": "./artifacts/contracts/admin/PrepaidPlatformFee.sol/PrepaidPlatformFee.json"
+    },
+    "GiftCardBase": {
+      "path": "./artifacts/contracts/giftcard/GiftCardBase.sol/GiftCardBase.json"
+    },
+    "GiftCardVoucher": {
+      "path": "./artifacts/contracts/giftcard/GiftCardVoucher.sol/GiftCardVoucher.json"
+    },
+    "GiftCardLedger": {
+      "path": "./artifacts/contracts/giftcard/GiftCardLedger.sol/GiftCardLedger.json"
+    },
+    "GiftCardController": {
+      "path": "./artifacts/contracts/giftcard/GiftCardController.sol/GiftCardController.json"
+    },
+    "ReferralHub": {
+      "path": "./artifacts/contracts/referral/ReferralHub.sol/ReferralHub.json"
+    },
+    "PreRegistrationCreator": {
+      "path": "./artifacts/contracts/proxy/PreRegistrationCreator.sol/PreRegistrationCreator.json"
+    }
+  },
+  "chains": ["mode-testnet"],
+  "instances": [
+    {
+      "abi": "SidRegistry",
+      "address": "0xbF736C9845FaeC121D2E9c07F1419CBA068EC232",
+      "startBlock": 7047345,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "SANN",
+      "address": "0xd28b55a452844466098C327C0F20B3E300324CAb",
+      "startBlock": 7047351,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "RegistrarController",
+      "address": "0xC5005a0027CcD013622940202693795973991dd4",
+      "startBlock": 7047379,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "ReverseRegistrar",
+      "address": "0xF3087f9ad8718C28f4fe81C22b01cDfeca1FFbd5",
+      "startBlock": 7047372,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "PriceOracle",
+      "address": "0x548D12CA8698415651846ef16671EA0F410C84Ee",
+      "startBlock": 7047361,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "Base",
+      "address": "0xca3a57e014937c29526de98e4a8a334a7d04792b",
+      "startBlock": 7207798,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "TldFactory",
+      "address": "0x72eB33Af98f95883391Eb5EF5B6A3796B5B0aC8C",
+      "startBlock": 7047406,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "PlatformConfig",
+      "address": "0x0F351e214FFFb78e886926a2898dcFD5da2B6D49",
+      "startBlock": 7047356,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "PrepaidPlatformFee",
+      "address": "0xcd2B518144b6a91d21963B38d153349FFD714162",
+      "startBlock": 7047369,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "GiftCardBase",
+      "address": "0xAAbF0bc0b6c1408ab5f53FD5d1025F2f2b16BB88",
+      "startBlock": 7047384,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "GiftCardVoucher",
+      "address": "0xbc3bab695B6DD190a5aDc7A11812a3AAa5D11796",
+      "startBlock": 7047386,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "GiftCardLedger",
+      "address": "0xb3afB61acA0E4840e11384eD999d44c8Ced04488",
+      "startBlock": 7047389,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "GiftCardController",
+      "address": "0x8BbD171e7Bef58cA8Df352a7585cd3Db9Abd85a9",
+      "startBlock": 7047392,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "ReferralHub",
+      "address": "0x27a27021d6A94667ebF8e6a5E4D4e8594609db8e",
+      "startBlock": 7047398,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "PreRegistrationCreator",
+      "address": "0xac639A1D8fc0911D548944C3F4916d7DA02C5cc6",
+      "startBlock": 7047403,
+      "chain": "mode-testnet"
+    }
+  ]
+}

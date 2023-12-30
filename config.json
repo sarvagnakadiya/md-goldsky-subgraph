@@ -1,0 +1,47 @@
+{
+  "version": "1",
+  "name": "mode-domains",
+  "abis": {
+    "SidRegistry": {
+      "path": "./artifacts/contracts/registry/SidRegistry.sol/SidRegistry.json"
+    },
+    "RegistrarController": {
+      "path": "./artifacts/contracts/controller/RegistrarController.sol/RegistrarController.json"
+    },
+    "ReverseRegistrar": {
+      "path": "./artifacts/contracts/registrar/ReverseRegistrar.sol/ReverseRegistrar.json"
+    },
+    "Base": {
+      "path": "./artifacts/contracts/base/Base.sol/Base.json"
+    }
+  },
+  "chains": ["mode-testnet"],
+  "instances": [
+    {
+      "abi": "SidRegistry",
+      "address": "0xbF736C9845FaeC121D2E9c07F1419CBA068EC232",
+      "startBlock": 7047345,
+      "chain": "mode-testnet"
+    },
+
+    {
+      "abi": "RegistrarController",
+      "address": "0xC5005a0027CcD013622940202693795973991dd4",
+      "startBlock": 7047379,
+      "chain": "mode-testnet"
+    },
+    {
+      "abi": "ReverseRegistrar",
+      "address": "0xF3087f9ad8718C28f4fe81C22b01cDfeca1FFbd5",
+      "startBlock": 7047372,
+      "chain": "mode-testnet"
+    },
+
+    {
+      "abi": "Base",
+      "address": "0xca3a57e014937c29526de98e4a8a334a7d04792b",
+      "startBlock": 7207798,
+      "chain": "mode-testnet"
+    }
+  ]
+}
